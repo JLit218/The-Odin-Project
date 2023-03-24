@@ -1,7 +1,28 @@
-div {
+/*  Lesson One */
+/* div {
     background-color: red;
     color: white;
     font-weight: bold;
     font-size: 32px;
     text-align: center;
+} */
+
+/* Lesson Two */
+.oddNum {
+    background-color: lightcoral;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#number2
+{
+    color: blue;
+    font-size: 32px;
+}
+.oddNum.big {
+    font-size: 24px;
+
+}
+#number4{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
 }
