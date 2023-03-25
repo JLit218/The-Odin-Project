@@ -8,7 +8,7 @@
 } */
 
 /* Lesson Two */
-.oddNum {
+/* .oddNum {
     background-color: lightcoral;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
@@ -25,4 +25,82 @@
     background-color: lightgreen;
     font-size: 24px;
     font-weight: bold;
+} */
+
+/* Lesson Three */
+/* button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
 }
+.btnOne {
+    color: white;
+    background-color: black;
+}
+
+.btnTwo {
+    background-color: yellow;
+    color: black;
+} */
+
+/* Lesson 4 */
+/* .avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+} */
+
+/* Leson 5 */
+/* .container .text {
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+} */
+
+/* Lesson 6 */
+body{
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  .para {
+    font-size: 22px;
+  }
+
+  .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  
+  .small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  .confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+  
+  
+  .text .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
