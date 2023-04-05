@@ -156,7 +156,7 @@ body {
     max-width: 200px;
   }
 
-  /* Lesson 5 */
+  /* Lesson 5 
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
   html, body {
@@ -168,7 +168,7 @@ body {
     margin: 0;
     background: #aaa;
     color: #333;
-    /* I'll give you this one for free lol */
+    /* I'll give you this one for free lol 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +180,7 @@ body {
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 
-    /* SOLUTION: */
+    /* SOLUTION: 
     display: flex;
     gap: 16px;
     padding: 16px;
@@ -199,7 +199,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    /* SOLUTION: */
+    /* SOLUTION: 
     flex-shrink: 0;
 
   }
@@ -234,7 +234,7 @@ body {
     color: royalblue;
   }
 
-  /* SOLUTION: */
+  /* SOLUTION: 
   .header{
     display: flex;
     align-items: center;
@@ -244,7 +244,82 @@ body {
     margin-bottom: 8px;
   }
 
-  /* SOLUTION: */
+  /* SOLUTION: 
   .text {
     margin-bottom: 16px;
   }
+
+  /* Lesson 06 */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* SOLUTION */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a:link {
+    color: #666;
+    text-decoration: none;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.footer {
+    background-color: #eee;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 8px 16px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
